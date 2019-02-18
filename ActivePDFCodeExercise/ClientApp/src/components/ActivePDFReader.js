@@ -8,6 +8,7 @@ export class ActivePDFReader extends Component {
 		this.state = {
 			imageLink: '',
 			pdfLink: '',
+			loading: true
 		}
 	}
 
@@ -28,7 +29,6 @@ export class ActivePDFReader extends Component {
 					{
 						imageLink: data.webPath,
 						pdfLink: data.aPDFwebPath,
-						pdfLinkServer: data.aPDFserverPath,
 						loading: false
 					});
 
