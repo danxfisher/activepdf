@@ -1,0 +1,42 @@
+﻿/* 
+	activePDF colors:
+	blue: #112231
+	orange: #f16625
+	cyan: #39ced6
+*/
+
+body {
+	overflow: auto;
+	font-family: 'Roboto Mono', monospace;
+}
+
+@media (max-width: 767px) {
+	/* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+	body {
+		padding-top: 50px;
+	}
+}
+
+.section__spacer {
+	padding: 55px 0;
+}
+
+.section__mini-spacer {
+	padding: 15px 0;
+}
+
+.section__large-spacer {
+	padding: 125px 0;
+}
+
+.background__dark-blue {
+	background-color: #112231;
+}
+
+.background__light-blue {
+	background-color: #39ced6;
+}
+
+.background__orange {
+	background-color: #f16625;
+}

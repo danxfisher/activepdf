@@ -1,0 +1,33 @@
+﻿#upload-image__instructions {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.upload-image__number {
+	color: white;
+	font-size: 24px;
+	width: 55px;
+	text-align: center;
+	background-color: #f16625;
+	padding: 10px;
+}
+
+.upload-image__number-subtext {
+	padding-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.upload-image__input {
+	border: 0;
+	margin: 0 auto;
+}
+
+#upload-image__border {
+	border: 2px solid #39ced6;
+	border-radius: 0;
+	padding: 25px 10px;
+	text-align: center;
+}
